@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: hot_weather_dbt
+    columns:
+      - name: name
+        tests:
+          - unique
+          - not_null
+  - name: lukewarm_weather_dbt
+    columns:
+      - name: name
+        tests:
+          - unique
+          - not_null
+  - name: cold_weather_dbt
+    columns:
+      - name: name
+        tests:
+          - unique
+          - not_null

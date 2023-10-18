@@ -1,0 +1,1 @@
+select * from `matthewr-playground.weather_data.weather_*`
