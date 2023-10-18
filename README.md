@@ -17,6 +17,8 @@ Please note that you will also need to set up an Ascend.io account to follow thi
 # dbt Cloud notes
 The dbt folder contains the dbt Cloud project layout for the equivalent process to the Ascend one above, used in the blog post. This structure should be configurable however if you are using dbt Core rather than dbt Cloud, however if you want to follow this example through using dbt core, please be aware that some further config files or variables may be needed to be added into your environment to get the scripts running from your side.
 
+In my example dbt environment, I followed the jaffle_shop sandbox example to set up my underlying dbt project as per the documentation here - https://github.com/dbt-labs/jaffle-shop - to replicate this side of the article you will need to populate this with your own credentials accordingly as per the guides below.
+
 For info on setting up a dbt Cloud account, please see info at - https://docs.getdbt.com/docs/cloud/about-cloud-setup
 For info on setting up dbt Core, please see info for that at - https://docs.getdbt.com/docs/core/about-core-setup
 
