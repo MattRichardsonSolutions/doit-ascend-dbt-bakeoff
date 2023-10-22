@@ -9,6 +9,8 @@ These queries include the setup of test Dataflows in Ascend.io, a test DAG in db
 # Usage
 The codes used in this example are fairly simplified and tests included on either side of solution in final repo have been kept fairly generic (i.e. to not-null or unique tests), however the examples here can be easily tweaked to add further logic or tests into either the Ascend Dataflows or the dbt configuration for our sample DAG.
 
+The source files in the weather_source_files folder give sample weather data files from July 31st through to August 19th to provide sample data to test the two pipelines. The pipelines can be configured to read this data from load into BigQuery directly or from GCS with tweaks to the configuration (the example pipelines included in this repo use the data directly from BigQuery). In terms of the data provided in the source folder, this was taken from the weather data included in the Public GSOD BigQuery weather dataset.
+
 # Ascend.io notes
 The Ascend folder for this repo contains the Dataflow elements for running the example given in the blog entry for the BigQuery Data Warehouse service specifically, the same codes used should also be transferrable to running the same processes via Snowflake Data Warehouse however, so codes/other config settings are the same for both warehouses tested in the blog post.
 
